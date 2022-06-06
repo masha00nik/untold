@@ -1,0 +1,47 @@
+@media print {
+    h1{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+
+    h2{
+        color:blue;
+        font-size: 20px;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        margin-left: 810px;
+        margin-top: 25px;
+    }
+    
+    
+   input{
+        display: none;
+    }
+
+    img{
+        width: auto;
+        height: 700px;
+        align-items: left;
+    }
+
+    textarea{
+        background-color: transparent;
+        border-color: blue;
+        width: 600px;
+        height: 910px;
+        overflow-y: scroll;
+        resize: none;
+        margin-right: 20px;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        border-radius: 1em;
+        position: absolute;
+        left:800px; top:20px;
+    
+    }
+
+    form span{
+        display: none;
+    }
+
+}

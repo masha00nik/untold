@@ -1,0 +1,20 @@
+.container {
+    width: 1300px;
+    
+    border: 1px solid white;
+    margin: auto;
+    overflow: hidden;
+    text-align: center; 
+    flex-wrap: wrap;
+}
+
+
+
+h1 { 
+    color:blue;
+    font-size: 250px;
+    font-family: 'Rubik Puddles', cursive;
+}
+
+
+

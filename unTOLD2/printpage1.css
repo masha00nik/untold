@@ -1,0 +1,13 @@
+@media print{
+    h1 { 
+        color:blue;
+        font-size: 100px;
+        font-family: 'Rubik Puddles', cursive;
+        position: fixed;
+        margin-left: 600px;
+        margin-top: 200px;
+    }
+    img{
+        display: none;
+}
+}

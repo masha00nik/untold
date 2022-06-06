@@ -1,0 +1,93 @@
+.container {
+    width: 800px;
+    border: 1px solid white;
+
+    flex-wrap: wrap;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+}
+
+
+
+h1{
+    color:blue;
+    font-size: 55px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+h2{
+    display: none;
+}
+
+
+
+p{
+    color:blue;
+    font-size: 28px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin: auto;
+}
+
+img{
+    align-items: center;
+    margin-left: 100px;
+    width: 600px;
+    height: auto;
+}
+
+
+
+textarea{
+    background-color: rgb(255, 255, 255);
+    border-color: blue;
+    width: 500px;
+    height: 400px;
+    overflow-y: scroll;
+    resize: none;
+    margin-right: 20px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    border-radius: 1em;
+    position: absolute;
+    left:800px; top:70px;
+
+}
+
+form{
+    font-family: 'Zen Maru Gothic', sans-serif; 
+    margin: auto;
+    color: blue;
+    position: absolute;
+    top: 270px;
+}
+
+input{
+    font-family: 'Zen Maru Gothic', sans-serif; 
+    margin: auto;
+    color: white;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 0.3em;
+    align-content: center;
+}
+
+form span{
+    position: absolute;
+    left: 800px;
+}
+
+.buttons{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+    display: flex;
+}
+
+.btn2{
+    margin-left: 50px;
+}
+
+
+
+
